@@ -220,7 +220,7 @@ max-width:750px;
 .featureText {
 
   flex: 1;
-  padding: 12px;
+  padding: 20px;
 
 
 
@@ -250,8 +250,9 @@ max-width:750px;
 .footer {
 
 width:100%;
-background-color:grey;
-padding:25px;
+background-color:rgb(204, 204, 204);
+padding:5px;
+float:right;
 
   }
 
@@ -259,17 +260,17 @@ padding:25px;
 .footer ul {
 
     list-style: none;
-    display:inline;
     
     
     }
 
 
 .footer ul li {
-      float: right;
+      display:block;
       margin-right: 0.5em;
       margin-top:5px;
-      margin-left:auto;
+      position:relative;
+      align-items: center;
   
     }
 
@@ -289,6 +290,17 @@ padding:25px;
 
 
 }
+
+
+.footerLogo {
+
+width:150px;
+background-image:url("images/Logo.png");
+background-position: center;
+background-size: cover;
+float:left;
+}
+
 
 
 /* CARD LAYOUT CSS */
@@ -317,7 +329,12 @@ padding:25px;
 
 
 
+.footerLogo {
 
+width:px;
+
+
+}
 
 
 
