@@ -263,6 +263,11 @@ width:100%;
 background-color:rgb(204, 204, 204);
 padding:5px;
 float:right;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:200px;
+grid-template-areas:
+ "footerLogo footerName FooterNav"
+
 
   }
 
@@ -314,10 +319,11 @@ align-items:center;
 .footerLogo {
 
 width:150px;
-background-image:url("images/Logo.png");
+background-image:url("../images/Logo.png");
 background-position: center;
 background-size: cover;
 float:left;
+
 }
 
 
@@ -350,7 +356,11 @@ float:left;
 
 .footerLogo {
 
-width:px;
+width:100px;
+height:100px;
+float: left;
+display: block;
+justify-content: space-around;
 
 
 }
