@@ -72,11 +72,13 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .hero {
 
 
-    padding:65px;
+    padding:10px;
     justify-content: center;
     align-items:center;
     justify-items:center;
     display: grid;
+    margin-right:16%;
+    margin-left:16%;
     grid-template-columns: 2fr 2fr;
     grid-template-rows:450px;
     grid-template-areas:
@@ -95,7 +97,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height:auto;
     min-height:320px;
     min-width:320px;
-    padding:30px;
+    padding:10px;
     background-image: url("../images/Hero-Image.png");
     background-position: center;
     background-size: cover;
@@ -105,36 +107,74 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 nav {
 
 
-height:85px;
+
+width:100%;
 background-color:lightgray;
+display:inline-block;
+vertical-align:top;
 
 
 }
+
+.navLogo {
+display:inline-block;
+width:5%;
+padding:1%;
+height:5%;
+text-align:center;
+background-image:url("../images/navLogo.png");
+background-position: center;
+background-size: cover;
+border:1px solid red;
+margin-left:30px;
+
+
+}
+
+
+
+
+.mainMenu {
+
+
+width:50%;
+margin-left:auto;
+display:inline-block;
+
+
+}
+
+
+
 
 .heroText {
 
 display:flex;
 flex-direction:column;
 flex:right;
-padding:35px;
+padding:10px;
 
 }
 
 
 
 
-nav ul {
+.mainMenu ul {
 
 list-style: none;
 display:inline;
 margin:10px;
 
-
 }
+
+
+
+
+
+
 nav ul li {
     float: left;
     margin-right: 0.5em;
-    margin-top:38px;
     margin-left:auto;
 
   }
@@ -204,11 +244,16 @@ margin:auto;
 
 
 
-  padding:65px;
+  padding:10px;
   justify-content: center;
   align-items:center;
   justify-items:center;
   display: grid;
+
+  margin-right:16%;
+  margin-left:16%;
+
+
   grid-template-columns: 2fr 1fr;
   grid-template-rows:450px;
   grid-template-areas:
@@ -244,7 +289,7 @@ max-width:750px;
   height:auto;
   min-height:320px;
   min-width:320px;
-  padding:30px;
+  padding:10px;
   background-image: url("../images/Feature-Image.png");
   background-position: center;
   background-size: cover;
@@ -275,6 +320,7 @@ grid-template-areas:
 .footerNav {
 
 align-items:center;
+display:inline-block;
 
 }
 
@@ -284,7 +330,7 @@ align-items:center;
 .footer ul {
 
     list-style: none;
-    
+    display:inline-block;
     
     }
 
@@ -323,6 +369,7 @@ height:150px;
 background-image:url("../images/Logo.png");
 background-position: center;
 background-size: cover;
+display:inline-block;
 float:left;
 
 }
@@ -331,6 +378,14 @@ float:left;
 
 /* CARD LAYOUT CSS */
 
+
+.skillContainer {
+
+  margin-right:10%;
+  margin-left:10%;
+
+
+}
 
 
 .flex_item {
@@ -342,7 +397,7 @@ float:left;
 .flex {
   display: flex;
   padding: 10px;
-  margin: 10px;
+
 }
 #column {
  
@@ -359,8 +414,8 @@ float:left;
 
 width:100px;
 height:100px;
-float: left;
-display: block;
+float:left;
+display:inline-block;
 justify-content: space-around;
 
 
