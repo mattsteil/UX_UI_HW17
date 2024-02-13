@@ -79,7 +79,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height:320px;
     min-width:320px;
     padding:30px;
-    background-image: url("/images/Hero-Image.png");
+    background-image: url("images/Hero-Image.png");
     background-position: center;
     background-size: cover;
 
@@ -235,7 +235,7 @@ max-width:750px;
   min-height:320px;
   min-width:320px;
   padding:30px;
-  background-image: url("/images/Feature-Image.png");
+  background-image: url("images/Feature-Image.png");
   background-position: center;
   background-size: cover;
 
@@ -259,7 +259,7 @@ float:right;
 
 .footerNav {
 
-align-items:center;
+align-items:center;wd
 
 
 }
