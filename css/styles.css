@@ -308,10 +308,10 @@ width:100%;
 background-color:rgb(204, 204, 204);
 padding:5px;
 float:right;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows:200px;
-grid-template-areas:
- "footerLogo footerName FooterNav"
+align-items: center;
+text-align: justify;
+
+
 
 
   }
@@ -331,6 +331,7 @@ display:inline-block;
 
     list-style: none;
     display:inline-block;
+    float:right;
     
     }
 
@@ -418,6 +419,17 @@ float:left;
 display:inline-block;
 justify-content: space-around;
 
+
+}
+
+
+
+.footerName {
+
+width:25%;
+display: inline-block;
+line-height: 1px;
+margin: auto;
 
 }
 
